@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block header_title %}Form page{% endblock %}
+
+{% block content %}
+<h1>This is a Form</h1>
+
+<form method='POST'>
+	{{ form.as_p }}
+	{% csrf_token %}
+	<input type="submit" name="send" value='Tweet' class='btn-lg btn-outline-primary'>
+	
+</form>
+{% endblock %}
+{% block tweets%}{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block header_title %}
+  Profile page
+{% endblock %}
+
+
+{% block content %}
+	<h1>This is Nathan's Twitter latest tweets</h1>
+	<h2>Here is the info about {{list.0.user.name}}'s tweets:</h2>
+
+	<h3><a href="tweet/">Here is a link for you to publish a tweet. </a></h3>
+
+	
+
+{% endblock %}
