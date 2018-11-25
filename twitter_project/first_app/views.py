@@ -108,7 +108,7 @@ def signup(request):
 		'registered': registered
 		})
 			
-
+# HEllo test 
 # def login(request):
 # 	username = request.POST['username']
 # 	password = request.POST['password']
